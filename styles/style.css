@@ -1,0 +1,350 @@
+/* || section  */
+
+.section {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* || Header */
+  header {
+    height: 96px;
+  }
+  
+  header > div {
+    /* max-width: 1440px; */
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1000;
+  }
+  
+  header nav {
+    width: 328px;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 24px;
+  }
+  
+  header a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000;
+  }
+  
+  /* || little-element   */
+  
+  .little-element {
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header span {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  /* || main */
+  
+  /* || headline */
+  
+  .headline > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+  }
+  
+  .headline-first-section {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .headline-first-section h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 60px;
+    color: #000;
+  }
+  
+  .headline-first-section p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+  }
+  
+  .little-element {
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .headline-first-section > div > div span {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  .headline-first-section > div > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    width: 236px;
+  }
+  
+  .headline-first-section > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .headline-last-section {
+    width: 490px;
+    height: 420px;
+    border-radius: 12px;
+    background-image: url(../images/img.png);
+    background-repeat: no-repeat;
+  }
+  
+  /* || second section */
+  
+  /* || feature */
+  
+  .second_section {
+    background-color: #f3f3f3;
+  }
+  .feature {
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .feature > div {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
+  .feature h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+  }
+  
+  .feature p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+  }
+  
+  .feature > div > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  /* || Blacksection-wraper */
+  
+  .Blacksection-wraper {
+    background-color: #000;
+  }
+  
+  .black-section {
+    width: 100%;
+    display: flex;
+    gap: 133px;
+    align-items: center;
+    padding: 96px 0;
+  }
+  
+  .black-section div:first-child {
+    width: 503px;
+    height: 408px;
+    border-radius: 12px;
+    background-image: url(../images/black-sectio.png);
+    background-repeat: no-repeat;
+  }
+  
+  .black-section > div:last-child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .black-section > div:last-child div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .black-section div:last-child h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+  }
+  
+  .black-section div:last-child p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  
+  
+    /* || background-wraper */
+  
+    .background-wraper {
+      width: 100%;
+      height: 566px;
+      position: relative;
+      background-image: url("../images/background-img.png");
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+    
+    .background-wraper > div {
+      width: 540px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .background-wraper > div > span {
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+    }
+    
+    .background-wraper > div > h3 {
+      font-family: "Inter", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #fff;
+      margin-top: 12px;
+    }
+    
+    .background-wraper > div > div {
+      width: 84px;
+      height: 40px;
+      border-radius: 24px;
+      background-color: #F3F3F3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 18px;
+    }
+    
+    .background-wraper > div > div > span {
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000;
+    }
+  
+  
+    /* || footer */
+  
+    footer {
+      background-color: #000;
+      color: #fff;
+    }
+    
+  .footer {
+    padding: 96px 0;
+    display: flex;
+    align-items: center;
+  } 
+  
+  .footer > div:first-child,
+  .footer >div:last-child div {
+    width: 20%;
+  }
+  
+  .footer > div:first-child {
+    height: 144px;
+  }
+  
+  .footer > div:last-child {
+    display: flex;
+    gap: 120px;
+  }
+  
+  
+  .footer > div > div a:nth-child(1) {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  .different {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  .footer > div > div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
